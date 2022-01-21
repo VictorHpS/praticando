@@ -132,16 +132,16 @@
 
 
 
-@media screen and (min-width: 514px) {
+@media screen and (max-width: 514px) {
     .nav__menu{
         font-size: 17px;
     }
     .footer__copy{
-        font-size: 13px;
+        font-size: 14px;
     }
 
     .section__texto{
-        font-size: 13;
+        font-size: 14px;
     }
 
     .titulo{
