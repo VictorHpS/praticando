@@ -73,7 +73,7 @@
 }
 
 .section__conteudo{
-    background-color: #c4c1da48;
+    background-color: #c4c1da2f;
     border-radius: 15px;
     padding: 15px;
     
@@ -118,6 +118,10 @@
         width: 11px;
     }
 
+    .footer__copy{
+        margin-top: 360px;
+    }
+
     .section__texto{
        gap: 22px;
        justify-content: center;
@@ -125,6 +129,8 @@
     }
 
 }
+
+
 
 @media screen and (min-width: 514px) {
     .nav__menu{
