@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+:root{
+    --fonte:'Poppins', sans-serif;
+
+    --cor-1:#F2E9E4;
+    --cor-2:#C9ADA7;
+    --cor-3:#9A8C98;
+    --cor-4:#4A4E69;
+    --cor-5:#22223B;
+    
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+
+
+.header{
+    background-color: #e2e2e2dc;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 53px;
+    transition: .3s;
+    box-shadow: 0px 13px -2px  rgb(83, 83, 83);
+}
+
+.titulo{
+    font-family: var(--fonte);
+    font-size: 20px;
+    color: var(--cor-5);
+    transition: .4s;
+}
+
+.section__titulo__h2{
+    font-size: 25px;
+    font-family: var(--fonte);
+    transition: .4s;
+}
+
+.nav__menu{
+    display: flex;
+    gap: 32px; /*ESPAÇAMENTO ENTRE OS LINKS*/
+    transition: .3s;
+}
+
+.nav__menu-item{
+    font-family: var(--fonte);
+    font-weight: 500;
+    text-decoration: none;
+    color: var(--cor-5);
+    transition: .3s;
+}
+
+.nav__menu-item:hover{
+    color: #4a4e69c9;
+    transition: .4s;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.main{
+    min-width: 300px;
+    max-width: 760px;
+    padding: 20px;
+    margin: auto;
+    box-shadow: 0px 13px -2px  black;
+}
+
+.section__conteudo{
+    background-color: #c4c1da48;
+    border-radius: 15px;
+    padding: 15px;
+    
+}
+
+.section__texto{
+    justify-content: center;
+    max-width: 760px;
+    padding-bottom: 20px;
+    font-size: 16px;
+    font-family: var(--fonte);
+}
+
+.section__titulo__h2{
+    text-align: center;
+    padding-bottom: 24px;
+}
+
+.footer{
+    margin: 20px;
+    text-align: center;
+}
+
+.footer__copy{
+    font-family: var(--fonte);
+    font-size: 12px;
+    color: rgba(61, 61, 61, 0.842);
+}
+
+@media screen and (max-width: 350px) {
+    .nav__menu-item{
+        display: flex;
+        align-items: center;
+        font-size: 14px;
+    }
+
+    .titulo{
+        font-size: 12px;
+    }
+
+    .img{
+        width: 11px;
+    }
+
+    .section__texto{
+       gap: 22px;
+       justify-content: center;
+       font-size: 14px;
+    }
+
+}
+
+@media screen and (min-width: 514px) {
+    .nav__menu{
+        font-size: 17px;
+    }
+    .footer__copy{
+        font-size: 13px;
+    }
+
+    .section__texto{
+        font-size: 13;
+    }
+
+    .titulo{
+        font-size: 19px;
+    }
+
+    .section__titulo__h2{
+        font-size: 25px;
+    }
+}
